@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+        // let src = "https://cwpeng.github.io/live-records-samples/data/products.json";
+        // fetch(src).then(function (response) {
+        //     // console.log(response);
+        //     return response.json();
+        // }).then(function (result) {
+        //     console.log(result);
+        //     console.log(result[1]);
+
+
+
+        // });
+
+        // function inputWords() {
+        //     let keyIn = document.getElementById("says").value;
+        //     alert(keyIn);
+        // };
+
+        let src = "https://usagiowo812.github.io/test-fetch/data/input.html";
+        fetch(src).then(function (response) {
+            // console.log(response);
+            return response;
+        }).then(function (result) {
+            keyIn = 5;
+            return keyIn;
+        });
+
+        function inputWords() {
+            let keyIn = document.getElementById("says").value;
+            console.log(keyIn)
+        };
+    </script>
+
+</head>
+
+<body>
+    <input type="text" id="says">
+    <input type="button" value="send" onclick="inputWords()">
+</body>
+
+</html>
