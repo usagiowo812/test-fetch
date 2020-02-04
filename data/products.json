@@ -13,5 +13,9 @@
     "name":"Pixel Book",
     "price":12000,
     "description":"最新的 Chromebook 產品。"
-  }
+  },{
+  function inputWords() {
+                let keyIn = document.getElementById("says").value;
+                alert(keyIn);
+            }}
 ]
